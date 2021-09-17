@@ -26,3 +26,15 @@ function checkControls(){
 function isSomethingPressed (control) /* control can be "jump" or 'left' or whatever */ {
   return controlsPressed[control]
 }
+
+// START OF DEBUG/TESTING
+
+while (true){
+  if (isSomethingPressed(up)) {
+    alert 'worked'
+  } else {
+    alert 'you are not pressing jump or it dosen\'t work.'
+  }
+}
+
+// END OF DEBUG/TESTING
